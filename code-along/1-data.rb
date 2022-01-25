@@ -30,12 +30,20 @@ puts "tacos" + 3.to_s
 # Variables
 x = 10 
 y = 3
-food = "tacos"
-puts x * y
-puts food
+puts "x * y = #{x * y}"
 
 # Combine strings and variables
-world_s = "world!"
-puts "Hello " + world_s
+food = "tacos"
+qty = 3
+puts "food * qty = #{food * qty}"
 
 # String manipulation
+hello = "hello"
+puts hello.reverse
+puts hello.capitalize
+puts hello.length
+
+creed = "This Is The Way"
+puts creed.upcase
+puts creed.downcase
+puts creed.swapcase
