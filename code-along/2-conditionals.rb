@@ -3,6 +3,8 @@
 # ruby 2-conditionals.rb
 
 # Booleans
+if True then; puts True
+
 
 # Boolean Expressions
 
