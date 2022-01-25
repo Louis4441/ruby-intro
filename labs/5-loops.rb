@@ -19,3 +19,7 @@ for suit in suits
 end
 
 puts cards
+
+for i in (0..3)
+    puts suits[i]
+end
