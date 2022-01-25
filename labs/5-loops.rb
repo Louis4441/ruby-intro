@@ -20,6 +20,9 @@ end
 
 puts cards
 
-for i in (0..3)
-    puts suits[i]
+for suit in suits
+    for rank in ranks
+        card_list.append("#{rank} of #{suit}")
+    end
 end
+puts card_list
