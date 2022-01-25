@@ -35,7 +35,7 @@ lose = [2, 3, 12]
 
 if win.include? total
     puts "#{total}: you win!".upcase
-elsif lose.include? lose
+elsif lose.include? total
     puts "#{total}: you lose!".downcase
 else
     puts "The point is #{total}".upcase

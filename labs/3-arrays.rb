@@ -14,3 +14,9 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+my_list = ["milk", "eggs", "bacon"]
+their_list = ["beer", "cookies", "apples"]
+
+combined_list = my_list.append(their_list)
+puts combined_list
