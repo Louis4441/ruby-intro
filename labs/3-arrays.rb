@@ -18,5 +18,6 @@
 my_list = ["milk", "eggs", "bacon"]
 their_list = ["beer", "cookies", "apples"]
 
-combined_list = my_list.append(their_list)
+combined_list = my_list + their_list
+combined_list = combined_list.uniq.sort
 puts combined_list

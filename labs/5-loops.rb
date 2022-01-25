@@ -8,3 +8,14 @@
 # screen.
 ranks = [2, 3, 4, 5, 6, 7, 8, 9, 10, "Jack", "Queen", "King", "Ace"]
 suits = ["Clubs", "Diamonds", "Hearts", "Spades"]
+cards = {}
+card_list = []
+
+for suit in suits
+    cards[:"#{suit}"] = []
+    for rank in ranks
+        cards[:"#{suit}"].append(rank)
+    end
+end
+
+puts cards
