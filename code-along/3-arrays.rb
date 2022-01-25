@@ -3,6 +3,8 @@
 # ruby 3-arrays.rb
 
 # Arrays are lists of things
+arr = ["item1", "Item2"]
+puts arr
 
 # Accessing the array
 
