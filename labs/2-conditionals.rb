@@ -25,3 +25,18 @@
 # "i would like #{5} tacos"
 # We can specify multiple conditions with || (OR) and && (AND)
 # if dinner == "tacos" || dinner == "pizza"
+
+die1 = rand(1..6)
+die2 = rand(1..6)
+total = die1 + die2
+
+win = [7, 11]
+lose = [2, 3, 12]
+
+if win.include? total
+    puts "#{total}: you win!".upcase
+elsif lose.include? lose
+    puts "#{total}: you lose!".downcase
+else
+    puts "The point is #{total}".upcase
+end

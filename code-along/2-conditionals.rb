@@ -3,8 +3,11 @@
 # ruby 2-conditionals.rb
 
 # Booleans
-if True then; puts True
+this_is_true = true
+this_is_false = false
 
+puts this_is_true
+puts this_is_false
 
 # Boolean Expressions
 
@@ -13,5 +16,11 @@ if True then; puts True
 # If/Else Conditional Logic
 
 # Elsif Conditional Logic
+state = "a"
+if state == "a"
+    puts "state = #{state}"
+else 
+    puts false
+end
 
 # Combining Expressions
